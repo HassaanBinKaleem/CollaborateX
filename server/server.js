@@ -1,4 +1,4 @@
-import dotenv from 'dotenv';
+import dotenv from "dotenv";
 import express from "express";
 
 dotenv.config();
@@ -8,6 +8,10 @@ const port = process.env.PORT || 3001;
 
 app.get("/", (req, res) => {
   res.send("Welcome to the Backend world of CollaborateX");
+});
+
+app.get("/product", (req, res) => {
+  res.send("Product Page");
 });
 
 app.listen(() => {

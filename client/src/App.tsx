@@ -3,8 +3,8 @@ import React from "react";
 function App(): React.JSX.Element {
   return (
     <React.Fragment>
-      <div className="bg-black">
-        <div className="px-auto py-[42.5dvh]">
+      <div>
+        <div className="px-auto pt-[50dvh]">
           <h1 className="text-center font-bold text-5xl text-white">
             CollaborateX
           </h1>
